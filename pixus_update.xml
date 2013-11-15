@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+		<source>http://www.jpeg.cn/pixus/pixus.air</source>
+		<latest>
+			<version>1.2</version>
+			<release>111</release>
+			<date>3-14-2010</date>
+			<size>1328 KB</size>
+			<note>Press Alt key to toggle title bar.
+Update Window now closes.
+Windows auto-hide in background.
+Improved with Mac OS X Space.</note>
+		</latest>
+		<old>
+			<version>1.2</version>
+			<release>110</release>
+			<date>3-4-2010</date>
+			<size>1317 KB</size>
+			<note>New Preset with wrong dimensions fixed.
+Release Notes added to Update Window.
+Preferences Window now closes instead of hides.</note>
+		</old>
+		<old>
+			<version>1.2</version>
+			<release>107</release>
+			<date>3-1-2010</date>
+			<size>1313 KB</size>
+			<note>Launching failure due to wrong settings data structure fixed.</note>
+		</old>
+		<old>
+			<version>1.2</version>
+			<release>106</release>
+			<date>2-18-2010</date>
+			<size>1322 KB</size>
+			<note>IE8 Windows 7 and iPhone Landscape Skins added. Multi-screen does always showing guides issue fixed. </note>
+		</old>
+		<old>
+			<version>1.2</version>
+			<release>104</release>
+			<date>2-12-2010</date>
+			<size>1146 KB</size>
+			<note>Multi-screen drag mode fixed. PSP 3000 Black skins added.</note>
+		</old>
+		<old>
+			<version>1.2</version>
+			<release>101</release>
+			<date>2-9-2010</date>
+			<size>1154 KB</size>
+			<note>Skin resizing issue fixed. New skins added. Adobe Air runtime version shown in About panel.</note>
+		</old>
+		<old>
+			<version>1.1</version>
+			<release>98</release>
+			<date>12-28-2009</date>
+			<size>732 KB</size>
+			<note>Double-click and input size right in the title bar.</note>
+		</old>
+		<old>
+			<version>1.1</version>
+			<release>96</release>
+			<date>12-28-2009</date>
+			<size>750 KB</size>
+			<note>Custom Skins and Overlay's 1px smaller issue fixed.</note>
+		</old>
+		<old>
+			<version>1.1</version>
+			<release>95</release>
+			<date>12-28-2009</date>
+			<size>727 KB</size>
+			<note>Shift Resize features for locked aspect ratio and grid snapping.</note>
+		</old>
+		<old>
+			<version>1.1</version>
+			<release>94</release>
+			<date>12-27-2009</date>
+			<size>727 KB</size>
+			<note>Shadow inside ruler removed. High contrast shadow. Ruler texture is transparent. Email link in About Panel removed.</note>
+		</old>
+		<old>
+			<version>1.1</version>
+			<release>93</release>
+			<date>10-12-2009</date>
+			<size>627 KB</size>
+			<note>Installation description shortened. Hyperlinks in About Panel set with _blank target.</note>
+		</old>
+		<old>
+			<version>1.1</version>
+			<release>90</release>
+			<date>10-5-2009</date>
+			<size>627 KB</size>
+			<note>Apply skins from system tray /dock menu.</note>
+		</old>
+		<old>
+			<version>1.1</version>
+			<release>89</release>
+			<date>8-20-2009</date>
+			<size>612 KB</size>
+			<note>Toggling and saving Quick Guides.</note>
+		</old>
+		<old>
+			<version>1.1</version>
+			<release>85</release>
+			<date>8-11-2009</date>
+			<size>552 KB</size>
+			<note>Quick Guides and guide color switching by Spacebar.</note>
+		</old>
+		<old>
+			<version>1.0</version>
+			<release>78</release>
+			<date>7-17-2009</date>
+			<size>631 KB</size>
+			<note>A bug always showing update-to-date even when an update is available fixed.</note>
+		</old>
+		<old>
+			<version>1.0</version>
+			<release>77</release>
+			<date>7-13-2009</date>
+			<size>629 KB</size>
+			<note>Migrated to a Thawte approved code sign.</note>
+		</old>
+</data>

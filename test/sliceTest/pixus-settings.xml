@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<settings>
+	<version>
+		<version>1.0</version>
+		<release>60</release>
+		<date>3-21-2009</date>
+	</version>
+	<updatefeedurl>http://www.withloveandjoy.net/download/pixus_update.xml</updatefeedurl>
+	<skinpresets>
+		<skin title="Internet Explorer 7" subtitle="Windows XP" >
+			<file filename="skin/skin_ie6_winxp.png" thumbnail="skin/skin_ie6_winxp_tn.png" />
+			<dragger x="20" y="-100" />
+			<resizer position="tr" offsety="-100" />
+			<resizer position="bl" offsetx="20" />
+			<resizer position="r" offsetx="24" />
+			<resizer position="b" offsety="28" />
+			<slice position="tl" x="0" y="0" w="525" h="120" minw="115" offsetx="-5" offsety="-119" />
+			<slice position="tc" x="500" y="0" w="25" h="120" offsety="-119" />
+			<slice position="tr" x="525" y="0" w="75" h="136" offsetx="-51" offsety="-119" />
+			<slice position="l" x="0" y="120" w="5" h="52" offsetx="-5" />
+			<slice position="r" x="576" y="140" w="24" h="10" />
+			<slice position="bl" x="0" y="172" w="25" h="28" offsetx="-5" />
+			<slice position="bc" x="25" y="172" w="10" h="28" />
+			<slice position="br" x="480" y="153" w="120" h="47" offsetx="-96" offsety="-19" />
+		</skin>
+		<skin title="Safari 3" subtitle="Mac OS X" >
+			<file filename="skin/skin_safari3_osx.png" thumbnail="skin/skin_safari3_osx_tn.png" />
+			<dragger x="70" y="-40" />
+			<resizer position="tr" offsety="-30" />
+			<resizer position="br" offsety="-20" />
+			<resizer position="bl" offsetx="20" offsety="-20" />
+			<resizer position="r" offsetx="15" />
+			<slice position="tl" x="0" y="0" w="250" h="65" _minw="75" offsetx="-10" offsety="-65" />
+			<slice position="tc" x="250" y="0" w="10" h="65" offsety="-65" />
+			<slice position="tr" x="300" y="0" w="220" h="80" offsetx="-197" offsety="-65" />
+			<slice position="l" x="0" y="80" w="10" h="10" offsetx="-10" />
+			<slice position="r" x="497" y="80" w="23" h="10" />
+			<slice position="bl" x="0" y="150" w="10" h="10" offsetx="-10" />
+			<slice position="bc" x="10" y="150" w="10" h="10" />
+			<slice position="br" x="497" y="90" w="23" h="70" offsety="-60" />
+		</skin>
+	</skinpresets>
+</settings>

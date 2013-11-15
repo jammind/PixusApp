@@ -1,0 +1,129 @@
+{\rtf1\ansi\ansicpg936\cocoartf949\cocoasubrtf540
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue255;}
+\vieww12000\viewh15840\viewkind0
+\deftab720
+\pard\tx4733\pardeftab720\ql\qnatural
+
+\f0\fs24 \cf0 Pixus App Action Tracking List
+\fs20 \
+(cc) 2009-2010 JPEG Interactive\
+\
+\
+
+\i\fs21 pixusShell.as\
+
+\i0\fs20 \
+Creating Static GATracker Object using Google Analytics profile UA-1806074-16\
+\
+
+\b Launch
+\b0 \
+Launch/Rxx	Launch of Pixus. xx is the release number, e.g. 61\
+\cf2 Launch, Successfully, Release, Release Number (Event)\
+\cf0 Launch/Failed/IO_ERROR	Launch failed due to an IO error\
+\cf2 Launch, Failure, IO_ERROR (Event)\
+\cf0 Launch/Failed/SECURITY_ERROR	Launch failed due to an security restriction	\
+\cf2 Launch, Failure, SECURITY_ERROR (Event)\
+\cf0 \
+
+\b Tray / Dock Interaction\
+
+\b0 TrayIcon/Hide	Hide Pixus by clicking the tray icon\
+TrayIcon/Show	Show Pixus by clicking the tray icon\
+TrayMenu/Presets/Apply/width_height	Applying any preset from the tray / dock menu\
+TrayMenu/Skins/Apply/title	Applying any skin from the tray / dock menu\
+TrayMenu/ResetPresets	Reset the presets from the tray / dock menu\
+TrayMenu/FindPanels	Find back panels from the tray / dock menu\
+TrayMenu/Preferences	Showing Preferences Panel from the tray / dock menu\
+TrayMenu/Update	Showing Update Panel from the tray / dock menu\
+TrayMenu/Exit	Exiting Pixus from the tray / dock menu\
+\
+\
+
+\i\fs21 pixus.as\
+
+\i0\fs20 \
+Pixus/Drag	Mouse dragging the title bar\
+Pixus/KeyboardControl/Move	Slow moving (Arrows)\
+Pixus/KeyboardControl/QuickMove	Quick moving (Shift + Arrows)\
+Pixus/KeyboardControl/Resize	Slow resizing (Control / Command + Arrows)\
+Pixus/KeyboardControl/QuickResize	Quick resizing (Shift + Control / Command + Arrows)\
+\
+\
+
+\i\fs21 pixusRulerResizer\
+
+\i0\fs20 \
+Pixus/Resize	Dragging the resizers to resize the ruler\
+\
+\
+
+\i\fs21 rulerButtons.as\
+
+\i0\fs20 \
+Pixus/FreeDrag	Multi-screen dragging\
+Pixus/Overlay/On	Toggling Overlay Mode On\
+Pixus/Overlay/Off	Toggling Overlay Mode Off\
+Pixus/Hide	Close button clicked\
+\
+\
+
+\i\fs21 preferences.as\
+
+\i0\fs20 \
+Preferences/Presets	Presets tab activated\
+Preferences/Presets/Add	Adding a new preset\
+Preferences/Presets/Reset	Reseting presets\
+Preferences/Presets/ResetAndPurgeSettings	Reseting presets and purging settings (Hold Ctrl/Cmd+Alt+Shift)\
+Preferences/Skins	Skins tab activated\
+Preferences/Skins/FindPanels	Find Panels button clicked\
+Preferences/Options	Options tab activated\
+Preferences/Options/AlwaysInFront/true	Pixus window will remain normal\
+Preferences/Options/AlwaysInFront/false	Pixus window will always stay in front\
+Preferences/Options/StartAtLogin/true	Pixus will automatically start at login\
+Preferences/Options/StartAtLogin/false	Pixus will start manually\
+Preferences/Options/ShowQuickGuides/true	Toggle Quick Guides on\
+Preferences/Options/ShowQuickGuides/false	Toggle Quick Guides off\
+Preferences/Help	Help tab activated\
+Preferences/About	About tab activated\
+Preferences/About/Update	Update button clicked\
+Preferences/Hide	Close button clicked\
+\
+\
+
+\i\fs21 presetRow.as\
+
+\i0\fs20 \
+Preferences/Presets/Edit/Width	Editting preset width\
+Preferences/Presets/Edit/Height	Editting preset height\
+Preferences/Presets/Edit/Comments	Editting preset comment\
+Preferences/Presets/Remove	Removing a preset\
+Preferences/Presets/Apply/width_height	Applying a preset\
+Preferences/Presets/Drag	Fragging a preset to change the order\
+\
+\
+
+\i\fs21 skinRow.as\
+
+\i0\fs20 \
+Preferences/Skins/Apply/SkinTitle	Applying a skin\
+\
+\
+
+\i\fs21 update.as\
+
+\i0\fs20 \
+Update/Check	Check Update buttons(s) clicked\
+Update/Check/Succeeded	The update XML has been loaded\
+Update/Check/Failed	Error reading the update XML\
+Update/Check/UpdateAvailable	Update available\
+Update/Check/UpToDate	Pixus is up-to-date\
+Update/Download	Download Update button(s) clicked\
+Update/Download/Began	Downloading of the update began\
+Update/Cancel	Downloading of the update canceled\
+Update/Download/Failed	Failed to download the update\
+Update/Download/Downloaded	Update successfully downloaded\
+Update/Install	Install Update button clicked\
+Update/Hide	Update Panel close button clicked\
+}

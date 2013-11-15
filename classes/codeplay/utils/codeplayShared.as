@@ -1,0 +1,1 @@
+﻿// utils Package// (cc)2009 codeplay// By Jam Zhang// jam@01media.cnpackage codeplay.utils{	public class codeplayShared{		static public const UI_TWEENING_TIME:Number=0.5;		static public const UI_INERTIA_TIME:Number=2;		static public const UI_INERTIA_BUFFER:int=1;		static public const DRAG_INITIAL_DISTANCE:int=5;	}}

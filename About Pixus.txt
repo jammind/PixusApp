@@ -1,0 +1,359 @@
+Pixus
+
+The pixel ruler for Adobe AIR. A handy tool for web and interface designers. (Runs on Windows / Mac OS X)
+
+1) Measure the screen objects in pixels using both mouse and keyboard control.
+2) Preview your design with skins and presets.
+3) Quick guides for checking layout.
+4) Multi-screen support.
+5) Auto update.
+
+
+Support via jammind@gmail.com
+
+Installation package always updated at Adobe AIR Marketplace
+http://www.adobe.com/cfusion/marketplace/index.cfm?event=marketplace.offering&offeringid=10177&marketplaceid=1
+
+Source code available at GoogleCode
+http://code.google.com/p/pixus/
+
+(cc)2007-2009 codeplay
+Created by Jam Zhang
+jammind@gmail.com
+
+
+Version History
+
+Pixus Version 1.2 R111 - March 14, 2010
+
+Features Added
+- Press Alt key to toggle title bar for clean screenshots.
+- Update Window now closes instead of hides.
+- Preferences & Update Window auto-hide when Pixus loses focus.
+- All windows will appear in the current Space in Mac OS X Multi-Space environment.
+
+
+Pixus Version 1.2 R110 - March 4, 2010
+
+Bugs Fixed
+- New Preset with wrong dimensions.
+
+Features Added
+- Release Notes added in Update window.
+- Preferences Window now closes instead of hides.
+
+
+Pixus Version 1.2 R107 - March 1, 2010
+
+Bugs Fixed
+- Launching failure due to wrong settings data structure.
+
+
+Pixus Version 1.2 R106 - February 18, 2010
+
+Features Added
+- Internet Explorer 8 Windows 7 Skin added.
+- iPhone Landscape Skin added.
+
+Bugs Fixed
+- Multi-screen always shows guides.
+
+
+Pixus Version 1.2 R104 - February 12, 2010
+
+Features Added
+- New skins added.
+  - PSP 3000 Black
+
+Bugs Fixed
+- Multi-screen Drag feature fixed.
+
+
+Pixus Version 1.2 R101 - February 9, 2010
+
+Features Added
+- Shows Adobe Air Runtime Version in Preferences / About Panel.
+- New skins added.
+  - Safari 4 OS X
+  - FireFox 3 OS X
+  - Chrome 4 Beta OS X
+  - iPhone Landscape
+- Skin can come with minimum / maximum size.
+- Skin resizers are optional
+
+Bugs Fixed
+- Skin improper resizing issue.
+
+
+Pixus Version 1.1 R98 - December 28, 2009
+
+Features Added
+- Double-click and input size right in the title bar.
+
+
+Pixus Version 1.1 R96 - December 28, 2009
+
+Bugs Fixed
+- Custom Skins and Overlay are 1px smaller than the ruler.
+
+
+Pixus Version 1.1 R95 - December 28, 2009
+
+Features Added
+- Shift + Drag Corner to resize Pixus with locked aspect ratio.
+- Shift + Drag Edges to resize Pixus and snap to 10px grids.
+
+
+Pixus Version 1.1 R94 - December 27, 2009
+
+Bugs Fixed
+- Shadow inside the ruler that prevents a clean screen capture with Pixus.
+- Outer shadow with higher contrast to stand out of white background.
+- Ruler texture is opaque while the ruler is translucent.
+- Removed email link in About Panel to prevent a pop-up browser or email client taking over the focus until it quits.
+
+
+Pixus Version 1.1 R93 - October 12, 2009
+
+Bugs Fixed
+- Installation description shortened to keep the Install button inside the dialog.
+- Hyperlinks in About Panel set with _blank target to prevent a pop-up browser or email client taking over the focus until it quits.
+
+
+Pixus Version 1.1 R90 - October 5, 2009
+
+Features Added
+- Applying skins from system tray/ dock menu.
+
+Bugs Fixed
+- Guide visibility in Free Drag Mode.
+- Overlay visibility in Free Drag Mode.
+- Pixus ruler / skin size is always 1px smaller than the value specified.
+
+
+Pixus Version 1.1 R89 - August 20, 2009
+
+Features Added
+- Toggling and saving Quick Guides.
+
+
+Pixus Version 1.1 R85 - August 11, 2009
+
+Bugs Fixed
+- Guide length wrong when switching from a custom skin back to the Ruler.
+
+
+Pixus Version 1.1 R83 - August 10, 2009
+
+Features Added
+- Quick Guides.
+- Toggle guide colors by pressing Spacebar.
+
+
+Pixus Version 1.0 R78 - July 17, 2009
+
+Bugs Fixed
+- A bug always showing update-to-date even when an update is available fixed.
+
+
+Pixus Version 1.0 R77 - July 13, 2009
+
+Features Added
+- Migrated to a Thawte approved code sign.
+
+
+Pixus Version 1.0 R75 - May 28, 2009
+
+Bugs Fixed
+- Trying saving pixus-settings.xml in UTF-8 to solve mysterious launch failure under Mac OS X as reported by 2 users.
+- Tracking XML loading failures in both GA pageviews and events.
+
+
+Pixus Version 1.0 R74 - May 13, 2009
+
+Bugs Fixed
+- Error in tracking the release number
+
+
+Pixus Version 1.0 R68 - May 9, 2009
+
+Features Added
+- Google Analytics tracking.
+
+
+Pixus Version 1.0 R61 - Mar 31, 2009
+
+Bugs Fixed
+- OS-specific help always show Windows version.
+
+
+Pixus Version 1.0 R60 - Mar 21, 2009
+
+Features Added
+- Update Anyway button added in case you want to manually install the update.
+
+Bugs Fixed
+- Find Update Panel only moves the X axis.
+- Cancel download update won't stop background downloading and will switch to Install Update screen when download finished.
+- Downloading error not handled.
+
+
+Pixus Version 1.0 R56 - Mar 20, 2009
+
+Features
+- Help is now OS-specific.
+
+Bugs Fixed
+- Cannot detect Mac OS X.
+- Unfunctional context menu shortcuts. (Removed)
+
+
+Pixus Version 0.9.5 R51 - Mar 20, 2009
+
+Bugs Fixed
+- Multi-screen support under Mac OS X.
+- Positions not saved after Find Panels
+
+
+Pixus Version 0.9.5 R49 - Mar 19, 2009
+
+Features
+- Multi-screen support.
+
+
+Pixus Version 0.9.4 R46 - Mar 12, 2009
+
+Features
+- Right-click on dragger will open up the System Tray menu.
+- Click anywhere on the Native Ruler Skin starts moving.
+
+
+Pixus Version 0.9.4 R45 - Mar 11, 2009
+
+Features
+- Options added to Preferences | Options Panel
+	- Pixus Always In Front
+	- Start Pixus At Login
+
+Bugs fixed
+- Scroll panel background has 1px visual leaking at the right edge.
+
+
+Pixus Version 0.9.4 R42 - Mar 10, 2009
+
+Features
+- Find Panels also shrink Preferences panel to the minimal height.
+
+Bugs fixed
+- Progress bar doesn't grow to the full width when 100% completed.
+
+
+Pixus Version 0.9.4 R41 - Mar 8, 2009
+
+Features
+- New UI applied to update window
+
+
+Pixus Version 0.9.4 R39 - Mar 7, 2009
+
+Features
+- New UI applied to the ruler and preferences window
+- Apply a preset from Preferences / Presets
+
+Bugs fixed
+- Mis-remembering of visibility and position of panels.
+- Ctrl+Arrow occupied by Mac OS X. Ctrl replaced with Command.
+
+
+Pixus Version 0.9.4 R31 - Mar 3, 2009
+
+Bugs fixed
+- Mask unsynchronized when applying another size from the presets or resizing due to Find Back.
+
+
+Pixus Version 0.9.4 R30 - Mar 2, 2009
+
+Bugs fixed
+- Unable to quit under Mac OS
+
+
+Pixus Version 0.9.4 R25 - Feb 27, 2009
+
+Features
+- Auto-update
+- New logo design
+
+Bug fixed
+- Alt-F4 in Windows will hide the panel instead of closing it
+
+Bugs to fix
+- Quit application doesn't work in Mac OS X
+
+
+Pixus Version 0.9.2 R19 - Jan 27, 2009
+
+Features
+- Keyboard fine control
+- Keyboard Tips and First Aid added to the Help Panel
+
+
+Pixus Version 0.9.1 R16 - Jan 17, 2009
+
+Features
+- Find Pixus feature added, in Preference / Help and the system tray / dock menu, to centralize windows in case windows are out of screen and no way to move
+- Reset Presets button added in Preference / Help to roll-back presets to the default settings
+
+Bugs fixed
+- Press ESC under overlay (fullscreen) mode
+- Skin minimal size (partial fixed)
+
+
+Pixus Version 0.9.0 R12 - July 16, 2008
+
+Features
+- Ruler interfaced improved.
+- Popular browser skins added.
+  i)  Microsoft Internnet - Explorer 6 Windows XP
+  ii) Apple Safari 3 - Mac OS X
+- Preferences windows now with 4 panels
+  i)   Presets
+  ii)  Skins
+  iii) Help
+  iv)  About
+
+Bugs fixed
+- Sync scrollbar when adding / removing a preset row (fixed)
+- Resizer out of the panel if released outside the NativeWindow (fixed)
+- Dragger buttons. (fixed)
+- Mask mode mask 10px shifted horizontally under Windows
+
+
+Pixus Version 0.8.0 - June 18, 2008
+
+Features
+- Based on Adobe AIR 1.
+- Preferences dialog added.
+- Add / Remove / Edit / Drag presets in Preferences.
+- Presets can be activated by Windows system tray icon menu or Mac OS X dock icon menu.
+- SharedObject bug under Mac OS X fixed.
+- Mac OS X dock icon menu support added.
+
+
+Pixus Version 0.7.0 - November 13, 2007
+
+Features
+- Based on Adobe Apollo Beta 2.
+- Exclusive Pixus icons added.
+- Windows system tray icon and menu added.
+- Hide / Show / Exit using system tray menu.
+- Task bar icon hidden.
+- Window position, size and mode remember.
+
+
+Pixus Version 0.6.0 - Released Oct 18, 2007
+
+Features
+- Based on Adobe Apollo Beta 1.
+- Resizable Rulers.
+- Minimizable.
+- Fullscreen overlay mode.

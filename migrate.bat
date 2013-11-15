@@ -1,0 +1,1 @@
+..\Adobe_AIR_SDK\bin\adt -migrate -storetype pkcs12 -keystore ..\Adobe_AIR_SDK\sign\jam.p12 pixus.air pixus.air

@@ -1,0 +1,1 @@
+﻿// Compatibilities class// (cc)2009 codeplay// By Jam Zhang// jam@01media.cnpackage codeplay.utils{	import flash.system.Capabilities;	public class Compatibilities{				public static const MAC_MOUSE_WHEEL_SPEED_RATE:Number=2;		public static var isMacOS:Boolean=(flash.system.Capabilities.os.indexOf('Mac')!=-1);			}}
